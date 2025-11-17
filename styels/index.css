@@ -1,0 +1,19 @@
+
+.quicksand-primary_font {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.raleway-secondary_font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+.school{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
