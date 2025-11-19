@@ -315,6 +315,73 @@ border: none;
   
   background-size: cover;
 }
+.kids_education{
+  font-size: 42px;
+  font-weight: bold;
+  margin: 0px;
+  width: 200px;
+  height: auto;
+}
+.piza{
+  margin: 0px;
+  font-size: 20px;
+  font-weight: normal;
+  width: 350px;
+  height: auto;
+}
+.abou_school{
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0px;
+}
+.fact{
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0px;
+}
+.touch{
+font-size: 26px;
+font-weight: bold;
+margin: 0px;
+}
+.footer{
+  margin-top: 12px;
+  height: auto;
+  background-color: rgba(1, 172, 253, 1);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 130px;
+  padding: 120px 220px 150px 140px;
+}
+.kids_edu{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.flexing_piza{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.flexing_ul{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.flexing_touch{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.logos{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
 @media screen and (max-width:576px)  {
   .header_item-2{
     display: none;
@@ -369,5 +436,31 @@ border: none;
 }
 .arrow{
   display: none;
+}
+.funtodler{
+  display: none;
+}
+.insided-container_io{
+  grid-template-columns: 1fr;
+  height: auto;
+}
+.footer{
+  flex-direction: column;
+ padding-left: 0px;
+ padding-right: 0px;
+  gap: 32px;
+ justify-content: flex-start;
+}
+.flexing_ul{
+  margin-right: 190px;
+}
+.abou_school{
+  width: 200px;
+}
+.flexing_piza{
+ margin-right: 60px;
+}
+.flexing-touch{
+  justify-content: flex-start;
 }
 }
